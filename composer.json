@@ -1,0 +1,6 @@
+{
+    "name": "lelevar/sms-wordpress",
+    "require": {
+        "lelevar/sms": "^1.0"
+    }
+}

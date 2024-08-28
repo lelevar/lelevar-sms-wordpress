@@ -1,0 +1,39 @@
+{
+  "name": "lelevar/sms",
+  "description": "A Laravel package for sending SMS via Lelevar API",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Lelevar\\Sms\\": "src/"
+    },
+    "files": [
+        "src/helpers.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Lelevar\\Sms\\Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Kelvline",
+      "email": "knyaga4@gmail.com"
+    }
+  ],
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Lelevar\\Sms\\SmsServiceProvider"
+      ],
+      "aliases": {
+        "MaxRudeness": "Lelevar\\Sms\\Facades\\MaxRudeness",
+        "SmsService": "Lelevar\\Sms\\Facades\\SmsServiceFacade"
+      }
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^7.0"
+  }
+}
