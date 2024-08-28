@@ -1,4 +1,4 @@
-=== Lelevar SMS for WordPress ===
+### === Lelevar SMS for WordPress ===
 Contributors: lelevar, kelvline
 Tags: SMS, WooCommerce, SMS Notifications, SMS API, Lelevar
 Requires at least: 5.0
@@ -10,7 +10,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Lelevar SMS for WordPress streamlines the process of sending SMS messages directly from your site via the Lelevar SMS API. Seamlessly integrates with WooCommerce to deliver SMS notifications for order updates, confirmations, and more.
 
-== Description ==
+### == Description ==
 
 Lelevar SMS for WordPress is a powerful plugin that allows you to send SMS notifications directly from your WordPress site using the Lelevar SMS API. The plugin is fully integrated with WooCommerce, enabling you to send automated SMS updates to customers based on WooCommerce hooks, such as when an order is placed, updated, or completed. Additionally, you can send individual custom messages to specific users or system users like administrators or shop managers.
 
@@ -28,7 +28,7 @@ Lelevar SMS for WordPress is a powerful plugin that allows you to send SMS notif
 * Send personalized SMS updates to admins or shop managers.
 * Broadcast important updates or promotions via SMS to individual users.
 
-== Installation ==
+### == Installation ==
 
 1. Upload the `lelevar-sms` folder to the `/wp-content/plugins/` directory, or install the plugin through the WordPress plugins screen directly.
 2. Activate the plugin through the 'Plugins' screen in WordPress.
@@ -36,7 +36,7 @@ Lelevar SMS for WordPress is a powerful plugin that allows you to send SMS notif
 4. Under the **SMS Options** tab, enable or disable SMS notifications for customers, admins, and shop managers.
 5. Customize your SMS messages using the **SMS Templates** tab.
 
-== Frequently Asked Questions ==
+### == Frequently Asked Questions ==
 
 = How do I set up the Lelevar SMS API? =
 Navigate to **Settings > Lelevar SMS** and enter your Lelevar SMS API key and sender name under the **SMS API** tab. 
@@ -50,12 +50,12 @@ The plugin integrates with WooCommerce hooks for order placement, updates, and c
 = Can I send SMS messages to individual users? =
 Yes, you can send custom SMS messages to individual users or groups such as admins or shop managers from the plugin's interface.
 
-== Screenshots ==
+### == Screenshots ==
 
 1. **Settings Page**: Configure your API settings, SMS options, and templates.
 2. **WooCommerce Integration**: SMS notifications sent automatically based on WooCommerce order events.
 
-== Changelog ==
+### == Changelog ==
 
 = 1.0.0 =
 * Initial release.
@@ -63,12 +63,12 @@ Yes, you can send custom SMS messages to individual users or groups such as admi
 * Added support for sending individual custom messages to users and system users.
 * SMS template customization options available.
 
-== Upgrade Notice ==
+### == Upgrade Notice ==
 
-= 1.0.0 =
+### = 1.0.0 =
 First release of Lelevar SMS for WordPress. Please configure your API key and sender name in the settings.
 
-== License ==
+### == License ==
 
 This plugin is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
 
